@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\bin\Debug\netcoreapp2.0\SessionState.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\bin\Debug\netcoreapp2.0\SessionState.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\bin\Debug\netcoreapp2.0\SessionState.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\bin\Debug\netcoreapp2.0\SessionState.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\bin\Debug\netcoreapp2.0\SessionState.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\obj\Debug\netcoreapp2.0\SessionState.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\obj\Debug\netcoreapp2.0\SessionState.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\obj\Debug\netcoreapp2.0\SessionState.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\obj\Debug\netcoreapp2.0\SessionState.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\obj\Debug\netcoreapp2.0\SessionState.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SessionState\obj\Debug\netcoreapp2.0\SessionState.pdb

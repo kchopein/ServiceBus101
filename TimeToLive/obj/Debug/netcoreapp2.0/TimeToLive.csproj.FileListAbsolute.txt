@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\bin\Debug\netcoreapp2.0\TimeToLive.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\bin\Debug\netcoreapp2.0\TimeToLive.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\bin\Debug\netcoreapp2.0\TimeToLive.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\bin\Debug\netcoreapp2.0\TimeToLive.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\bin\Debug\netcoreapp2.0\TimeToLive.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\obj\Debug\netcoreapp2.0\TimeToLive.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\obj\Debug\netcoreapp2.0\TimeToLive.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\obj\Debug\netcoreapp2.0\TimeToLive.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\obj\Debug\netcoreapp2.0\TimeToLive.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\obj\Debug\netcoreapp2.0\TimeToLive.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\TimeToLive\obj\Debug\netcoreapp2.0\TimeToLive.pdb

@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\bin\Debug\netcoreapp2.1\QueueCRUD.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\bin\Debug\netcoreapp2.1\QueueCRUD.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\bin\Debug\netcoreapp2.1\QueueCRUD.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\bin\Debug\netcoreapp2.1\QueueCRUD.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\bin\Debug\netcoreapp2.1\QueueCRUD.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\obj\Debug\netcoreapp2.1\QueueCRUD.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\obj\Debug\netcoreapp2.1\QueueCRUD.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\obj\Debug\netcoreapp2.1\QueueCRUD.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\obj\Debug\netcoreapp2.1\QueueCRUD.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\obj\Debug\netcoreapp2.1\QueueCRUD.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\QueueCRUD\obj\Debug\netcoreapp2.1\QueueCRUD.pdb

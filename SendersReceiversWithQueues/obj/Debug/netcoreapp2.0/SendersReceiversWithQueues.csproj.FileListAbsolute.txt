@@ -1,0 +1,10 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\bin\Debug\netcoreapp2.0\SendersReceiversWithQueues.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\bin\Debug\netcoreapp2.0\SendersReceiversWithQueues.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\bin\Debug\netcoreapp2.0\SendersReceiversWithQueues.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\bin\Debug\netcoreapp2.0\SendersReceiversWithQueues.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\bin\Debug\netcoreapp2.0\SendersReceiversWithQueues.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\obj\Debug\netcoreapp2.0\SendersReceiversWithQueues.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\obj\Debug\netcoreapp2.0\SendersReceiversWithQueues.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\obj\Debug\netcoreapp2.0\SendersReceiversWithQueues.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\obj\Debug\netcoreapp2.0\SendersReceiversWithQueues.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\SendersReceiversWithQueues\obj\Debug\netcoreapp2.0\SendersReceiversWithQueues.pdb

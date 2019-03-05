@@ -1,0 +1,10 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\bin\Debug\netcoreapp2.0\AutoForward.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\bin\Debug\netcoreapp2.0\AutoForward.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\bin\Debug\netcoreapp2.0\AutoForward.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\bin\Debug\netcoreapp2.0\AutoForward.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\bin\Debug\netcoreapp2.0\AutoForward.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\obj\Debug\netcoreapp2.0\AutoForward.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\obj\Debug\netcoreapp2.0\AutoForward.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\obj\Debug\netcoreapp2.0\AutoForward.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\obj\Debug\netcoreapp2.0\AutoForward.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\AutoForward\obj\Debug\netcoreapp2.0\AutoForward.pdb

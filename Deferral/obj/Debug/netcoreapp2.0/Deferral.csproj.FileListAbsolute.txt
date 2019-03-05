@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\bin\Debug\netcoreapp2.0\Deferral.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\bin\Debug\netcoreapp2.0\Deferral.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\bin\Debug\netcoreapp2.0\Deferral.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\bin\Debug\netcoreapp2.0\Deferral.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\bin\Debug\netcoreapp2.0\Deferral.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\obj\Debug\netcoreapp2.0\Deferral.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\obj\Debug\netcoreapp2.0\Deferral.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\obj\Debug\netcoreapp2.0\Deferral.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\obj\Debug\netcoreapp2.0\Deferral.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\obj\Debug\netcoreapp2.0\Deferral.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Deferral\obj\Debug\netcoreapp2.0\Deferral.pdb

@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\bin\Debug\netcoreapp2.0\PartitionedQueues.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\bin\Debug\netcoreapp2.0\PartitionedQueues.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\bin\Debug\netcoreapp2.0\PartitionedQueues.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\bin\Debug\netcoreapp2.0\PartitionedQueues.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\bin\Debug\netcoreapp2.0\PartitionedQueues.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\obj\Debug\netcoreapp2.0\PartitionedQueues.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\obj\Debug\netcoreapp2.0\PartitionedQueues.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\obj\Debug\netcoreapp2.0\PartitionedQueues.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\obj\Debug\netcoreapp2.0\PartitionedQueues.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\obj\Debug\netcoreapp2.0\PartitionedQueues.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PartitionedQueues\obj\Debug\netcoreapp2.0\PartitionedQueues.csprojAssemblyReference.cache

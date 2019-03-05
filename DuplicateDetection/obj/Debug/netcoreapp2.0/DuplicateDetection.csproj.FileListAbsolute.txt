@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\bin\Debug\netcoreapp2.0\DuplicateDetection.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\bin\Debug\netcoreapp2.0\DuplicateDetection.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\bin\Debug\netcoreapp2.0\DuplicateDetection.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\bin\Debug\netcoreapp2.0\DuplicateDetection.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\bin\Debug\netcoreapp2.0\DuplicateDetection.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\obj\Debug\netcoreapp2.0\DuplicateDetection.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\obj\Debug\netcoreapp2.0\DuplicateDetection.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\obj\Debug\netcoreapp2.0\DuplicateDetection.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\obj\Debug\netcoreapp2.0\DuplicateDetection.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\obj\Debug\netcoreapp2.0\DuplicateDetection.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DuplicateDetection\obj\Debug\netcoreapp2.0\DuplicateDetection.csprojAssemblyReference.cache

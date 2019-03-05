@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\bin\Debug\netcoreapp2.0\DeadletterQueue.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\bin\Debug\netcoreapp2.0\DeadletterQueue.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\bin\Debug\netcoreapp2.0\DeadletterQueue.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\bin\Debug\netcoreapp2.0\DeadletterQueue.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\bin\Debug\netcoreapp2.0\DeadletterQueue.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\obj\Debug\netcoreapp2.0\DeadletterQueue.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\obj\Debug\netcoreapp2.0\DeadletterQueue.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\obj\Debug\netcoreapp2.0\DeadletterQueue.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\obj\Debug\netcoreapp2.0\DeadletterQueue.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\obj\Debug\netcoreapp2.0\DeadletterQueue.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\DeadletterQueue\obj\Debug\netcoreapp2.0\DeadletterQueue.pdb

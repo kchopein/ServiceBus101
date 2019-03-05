@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\bin\Debug\netcoreapp2.0\SenderActiveReplication.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\bin\Debug\netcoreapp2.0\SenderActiveReplication.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\bin\Debug\netcoreapp2.0\SenderActiveReplication.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\bin\Debug\netcoreapp2.0\SenderActiveReplication.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\bin\Debug\netcoreapp2.0\SenderActiveReplication.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\obj\Debug\netcoreapp2.0\SenderActiveReplication.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\obj\Debug\netcoreapp2.0\SenderActiveReplication.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\obj\Debug\netcoreapp2.0\SenderActiveReplication.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\obj\Debug\netcoreapp2.0\SenderActiveReplication.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\obj\Debug\netcoreapp2.0\SenderActiveReplication.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\SenderActiveReplication\obj\Debug\netcoreapp2.0\SenderActiveReplication.pdb

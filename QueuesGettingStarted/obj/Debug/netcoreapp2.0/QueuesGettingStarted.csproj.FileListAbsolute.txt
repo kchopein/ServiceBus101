@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\bin\Debug\netcoreapp2.0\QueuesGettingStarted.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\bin\Debug\netcoreapp2.0\QueuesGettingStarted.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\bin\Debug\netcoreapp2.0\QueuesGettingStarted.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\bin\Debug\netcoreapp2.0\QueuesGettingStarted.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\bin\Debug\netcoreapp2.0\QueuesGettingStarted.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\obj\Debug\netcoreapp2.0\QueuesGettingStarted.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\obj\Debug\netcoreapp2.0\QueuesGettingStarted.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\obj\Debug\netcoreapp2.0\QueuesGettingStarted.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\obj\Debug\netcoreapp2.0\QueuesGettingStarted.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\obj\Debug\netcoreapp2.0\QueuesGettingStarted.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\QueuesGettingStarted\obj\Debug\netcoreapp2.0\QueuesGettingStarted.pdb

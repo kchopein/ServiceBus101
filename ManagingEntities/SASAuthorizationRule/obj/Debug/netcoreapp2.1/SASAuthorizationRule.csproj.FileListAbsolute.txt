@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\bin\Debug\netcoreapp2.1\SASAuthorizationRule.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\bin\Debug\netcoreapp2.1\SASAuthorizationRule.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\bin\Debug\netcoreapp2.1\SASAuthorizationRule.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\bin\Debug\netcoreapp2.1\SASAuthorizationRule.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\bin\Debug\netcoreapp2.1\SASAuthorizationRule.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\obj\Debug\netcoreapp2.1\SASAuthorizationRule.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\obj\Debug\netcoreapp2.1\SASAuthorizationRule.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\obj\Debug\netcoreapp2.1\SASAuthorizationRule.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\obj\Debug\netcoreapp2.1\SASAuthorizationRule.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\obj\Debug\netcoreapp2.1\SASAuthorizationRule.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ManagingEntities\SASAuthorizationRule\obj\Debug\netcoreapp2.1\SASAuthorizationRule.pdb

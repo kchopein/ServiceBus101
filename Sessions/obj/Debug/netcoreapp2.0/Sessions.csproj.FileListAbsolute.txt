@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\bin\Debug\netcoreapp2.0\Sessions.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\bin\Debug\netcoreapp2.0\Sessions.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\bin\Debug\netcoreapp2.0\Sessions.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\bin\Debug\netcoreapp2.0\Sessions.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\bin\Debug\netcoreapp2.0\Sessions.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\obj\Debug\netcoreapp2.0\Sessions.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\obj\Debug\netcoreapp2.0\Sessions.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\obj\Debug\netcoreapp2.0\Sessions.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\obj\Debug\netcoreapp2.0\Sessions.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\obj\Debug\netcoreapp2.0\Sessions.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Sessions\obj\Debug\netcoreapp2.0\Sessions.csprojAssemblyReference.cache

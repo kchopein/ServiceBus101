@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\bin\Debug\netcoreapp2.0\MessageBrowse.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\bin\Debug\netcoreapp2.0\MessageBrowse.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\bin\Debug\netcoreapp2.0\MessageBrowse.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\bin\Debug\netcoreapp2.0\MessageBrowse.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\bin\Debug\netcoreapp2.0\MessageBrowse.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\obj\Debug\netcoreapp2.0\MessageBrowse.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\obj\Debug\netcoreapp2.0\MessageBrowse.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\obj\Debug\netcoreapp2.0\MessageBrowse.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\obj\Debug\netcoreapp2.0\MessageBrowse.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\obj\Debug\netcoreapp2.0\MessageBrowse.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\MessageBrowse\obj\Debug\netcoreapp2.0\MessageBrowse.pdb

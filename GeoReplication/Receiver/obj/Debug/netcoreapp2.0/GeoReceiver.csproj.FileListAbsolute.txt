@@ -1,0 +1,10 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\bin\Debug\netcoreapp2.0\GeoReceiver.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\bin\Debug\netcoreapp2.0\GeoReceiver.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\bin\Debug\netcoreapp2.0\GeoReceiver.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\bin\Debug\netcoreapp2.0\GeoReceiver.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\bin\Debug\netcoreapp2.0\GeoReceiver.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\obj\Debug\netcoreapp2.0\GeoReceiver.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\obj\Debug\netcoreapp2.0\GeoReceiver.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\obj\Debug\netcoreapp2.0\GeoReceiver.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\obj\Debug\netcoreapp2.0\GeoReceiver.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\GeoReplication\Receiver\obj\Debug\netcoreapp2.0\GeoReceiver.pdb

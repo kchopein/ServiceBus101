@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\bin\Debug\netcoreapp2.0\Prefetch.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\bin\Debug\netcoreapp2.0\Prefetch.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\bin\Debug\netcoreapp2.0\Prefetch.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\bin\Debug\netcoreapp2.0\Prefetch.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\bin\Debug\netcoreapp2.0\Prefetch.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\obj\Debug\netcoreapp2.0\Prefetch.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\obj\Debug\netcoreapp2.0\Prefetch.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\obj\Debug\netcoreapp2.0\Prefetch.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\obj\Debug\netcoreapp2.0\Prefetch.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\obj\Debug\netcoreapp2.0\Prefetch.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\Prefetch\obj\Debug\netcoreapp2.0\Prefetch.csprojAssemblyReference.cache

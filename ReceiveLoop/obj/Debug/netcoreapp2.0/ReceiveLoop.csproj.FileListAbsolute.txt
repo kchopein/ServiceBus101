@@ -1,0 +1,11 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\bin\Debug\netcoreapp2.0\ReceiveLoop.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\bin\Debug\netcoreapp2.0\ReceiveLoop.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\bin\Debug\netcoreapp2.0\ReceiveLoop.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\bin\Debug\netcoreapp2.0\ReceiveLoop.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\bin\Debug\netcoreapp2.0\ReceiveLoop.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\obj\Debug\netcoreapp2.0\ReceiveLoop.csprojAssemblyReference.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\obj\Debug\netcoreapp2.0\ReceiveLoop.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\obj\Debug\netcoreapp2.0\ReceiveLoop.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\obj\Debug\netcoreapp2.0\ReceiveLoop.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\obj\Debug\netcoreapp2.0\ReceiveLoop.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\ReceiveLoop\obj\Debug\netcoreapp2.0\ReceiveLoop.pdb

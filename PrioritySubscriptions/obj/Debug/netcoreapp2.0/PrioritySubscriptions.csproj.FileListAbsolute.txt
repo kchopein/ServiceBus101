@@ -1,0 +1,10 @@
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\bin\Debug\netcoreapp2.0\PrioritySubscriptions.deps.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\bin\Debug\netcoreapp2.0\PrioritySubscriptions.runtimeconfig.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\bin\Debug\netcoreapp2.0\PrioritySubscriptions.runtimeconfig.dev.json
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\bin\Debug\netcoreapp2.0\PrioritySubscriptions.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\bin\Debug\netcoreapp2.0\PrioritySubscriptions.pdb
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\obj\Debug\netcoreapp2.0\PrioritySubscriptions.csproj.CoreCompileInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\obj\Debug\netcoreapp2.0\PrioritySubscriptions.AssemblyInfoInputs.cache
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\obj\Debug\netcoreapp2.0\PrioritySubscriptions.AssemblyInfo.cs
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\obj\Debug\netcoreapp2.0\PrioritySubscriptions.dll
+C:\git\Azure\azure-service-bus\samples\DotNet\Microsoft.Azure.ServiceBus\PrioritySubscriptions\obj\Debug\netcoreapp2.0\PrioritySubscriptions.pdb
