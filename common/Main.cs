@@ -30,12 +30,13 @@ namespace MessagingSamples
     // and then allows override of the settings from environment variables.
     public class Sample
     {
-        public const string BasicQueueName = "BasicQueue";
-        public const string PartitionedQueueName = "PartitionedQueue";
-        public const string DupdetectQueueName = "DupdetectQueue";
-        public const string BasicTopicName = "BasicTopic";
-        public const string SessionQueueName = "sessionqueue";
-        public const string BasicQueue2Name = "BasicQueue2";
+        public const string NamePrefix = "kchopein";
+        public const string BasicQueueName = NamePrefix + "_BasicQueue";
+        public const string PartitionedQueueName = NamePrefix + "_PartitionedQueue";
+        public const string DupdetectQueueName = NamePrefix + "_DupdetectQueue";
+        public const string BasicTopicName = NamePrefix + "_BasicTopic";
+        public const string SessionQueueName = NamePrefix + "_sessionqueue";
+        public const string BasicQueue2Name = NamePrefix + "_BasicQueue2";
         static readonly string samplePropertiesFileName = "azure-msg-config.properties";
 #if STA
         [STAThread]
