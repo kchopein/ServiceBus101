@@ -20,40 +20,71 @@ namespace QueueCRUD
     using Microsoft.Azure.ServiceBus;
     using Microsoft.Azure.ServiceBus.Management;
     using System;
+    using System.Collections;
+    using System.Collections.Generic;
     using System.Threading.Tasks;
 
     public class Program : MessagingSamples.Sample
     {
-        ManagementClient managementClient;
-
         public async Task RunAsync(string connectionString)
         {
-            this.managementClient = new ManagementClient(connectionString);
+            var managementClient = new ManagementClient(connectionString);
 
-            var queueName = Guid.NewGuid().ToString("D").Substring(0, 8);
+            var queueNames = new List<string>
+            {
+                BasicQueueName,
+                PartitionedQueueName,
+                DupdetectQueueName,
+                SessionQueueName,
+                BasicQueue2Name
+            };
 
-            Console.WriteLine($"Creating a new Queue with name - {queueName}");
-            await CreateQueueAsync(queueName).ConfigureAwait(false);
+            foreach (var queueName in queueNames)
+            {
+                Console.WriteLine($"Creating a new Queue with name - {queueName}");
+                await CreateQueueAsync(queueName, managementClient).ConfigureAwait(false);
+            }
 
-            Console.WriteLine("Retrieving the created queue");
-            var getQueue = await GetQueueAsync(queueName).ConfigureAwait(false);
+            Console.WriteLine($"Creating a new Topic with name - {BasicTopicName}");
+            await CreateTopicAsync(BasicTopicName, managementClient);
 
-            Console.WriteLine($"Updating few properties of the queue");
-            await UpdateQueueAsync(getQueue).ConfigureAwait(false);
+            //Console.WriteLine("Retrieving the created queue");
+            //var getQueue = await GetQueueAsync(queueName, managementClient).ConfigureAwait(false);
 
-            Console.WriteLine("Retrieving runtime information of the queue");
-            await GetQueueRuntimeInfoAsync(queueName).ConfigureAwait(false);
+            //Console.WriteLine($"Updating few properties of the queue");
+            //await UpdateQueueAsync(getQueue, managementClient).ConfigureAwait(false);
 
-            Console.WriteLine("Deleting the queue");
-            await DeleteQueueAsync(queueName);
+            //Console.WriteLine("Retrieving runtime information of the queue");
+            //await GetQueueRuntimeInfoAsync(queueName, managementClient).ConfigureAwait(false);
 
-            await this.managementClient.CloseAsync().ConfigureAwait(false);
+            //Console.WriteLine("Deleting the queue");
+            //await DeleteQueueAsync(queueName, managementClient);
+
+            await managementClient.CloseAsync().ConfigureAwait(false);
+        }
+
+        public async Task CreateTopicAsync(string topicName, ManagementClient managementClient)
+        {
+            try
+            {
+                TopicDescription createdtopic = await managementClient.CreateTopicAsync(topicName).ConfigureAwait(false);
+                await managementClient.CreateSubscriptionAsync(createdtopic.Path, "Subscription1");
+                await managementClient.CreateSubscriptionAsync(createdtopic.Path, "Subscription2");
+                await managementClient.CreateSubscriptionAsync(createdtopic.Path, "Subscription3");
+
+            }
+            catch (ServiceBusException ex)
+            {
+                Console.WriteLine($"Encountered exception while creating Topic -\n{ex}");
+                throw;
+            }
+
         }
 
         /// <summary>
         /// Creates a new Queue using the managementClient with the name provided.
         /// </summary>
-        private async Task CreateQueueAsync(string queueName)
+        private async Task CreateQueueAsync(string queueName, ManagementClient managementClient)
         {
             // All the values have defaults and hence optional. 
             // The only required parameter is the path of the queue (in this case, queueName)
@@ -111,7 +142,7 @@ namespace QueueCRUD
         /// <summary>
         /// Retrieve a queue
         /// </summary>
-        private async Task<QueueDescription> GetQueueAsync(string queueName)
+        private async Task<QueueDescription> GetQueueAsync(string queueName, ManagementClient managementClient)
         {
             try
             {
@@ -129,7 +160,7 @@ namespace QueueCRUD
         // - Path
         // - RequiresSession
         // - EnablePartitioning
-        private async Task UpdateQueueAsync(QueueDescription queueDescription)
+        private async Task UpdateQueueAsync(QueueDescription queueDescription, ManagementClient managementClient)
         {
             try
             {
@@ -152,7 +183,7 @@ namespace QueueCRUD
             }
         }
 
-        private async Task GetQueueRuntimeInfoAsync(string queueName)
+        private async Task GetQueueRuntimeInfoAsync(string queueName, ManagementClient managementClient)
         {
             try
             {
@@ -170,11 +201,11 @@ namespace QueueCRUD
             }
         }
 
-        private async Task DeleteQueueAsync(string queueName)
+        private async Task DeleteQueueAsync(string queueName, ManagementClient managementClient)
         {
             try
             {
-                await this.managementClient.DeleteQueueAsync(queueName).ConfigureAwait(false);
+                await managementClient.DeleteQueueAsync(queueName).ConfigureAwait(false);
             }
             catch (ServiceBusException ex)
             {

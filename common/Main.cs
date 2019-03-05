@@ -41,7 +41,7 @@ namespace MessagingSamples
 #if STA
         [STAThread]
 #endif
-        [DebuggerStepThrough]
+        //[DebuggerStepThrough]
         public void RunSample(string[] args, Func<string, Task> run)
         {
             var properties = new Dictionary<string, string>

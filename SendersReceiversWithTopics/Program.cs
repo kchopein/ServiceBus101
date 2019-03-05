@@ -34,17 +34,17 @@ namespace SendersReceiversWithTopics
         {
             var cts = new CancellationTokenSource();
 
-            await this.SendMessagesAsync(connectionString, BasicTopicName);
-
             var allReceives = Task.WhenAll(
                 this.ReceiveMessagesAsync(connectionString, BasicTopicName, "Subscription1", cts.Token, ConsoleColor.Cyan),
                 this.ReceiveMessagesAsync(connectionString, BasicTopicName, "Subscription2", cts.Token, ConsoleColor.Green),
                 this.ReceiveMessagesAsync(connectionString, BasicTopicName, "Subscription3", cts.Token, ConsoleColor.Yellow));
 
+            await this.SendMessagesAsync(connectionString, BasicTopicName);
+
             await Task.WhenAll(
                 Task.WhenAny(
                     Task.Run(() => Console.ReadKey()),
-                    Task.Delay(TimeSpan.FromSeconds(10))
+                    Task.Delay(TimeSpan.FromSeconds(30))
                 ).ContinueWith((t) => cts.Cancel()),
                 allReceives);
         }
@@ -94,8 +94,8 @@ namespace SendersReceiversWithTopics
             // var subscriptionPath = SubscriptionClient.FormatSubscriptionPath(topicName, subscriptionName);
             //var receiver = new MessageReceiver(connectionString,subscriptionPath, ReceiveMode.PeekLock);
 
-            var receiver = new SubscriptionClient(connectionString, topicName, subscriptionName);
 
+            var receiver = new SubscriptionClient(connectionString, topicName, subscriptionName);
 
             var doneReceiving = new TaskCompletionSource<bool>();
             // close the receiver and factory when the CancellationToken fires 

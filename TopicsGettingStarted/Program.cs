@@ -43,12 +43,16 @@ namespace TopicsGettingStarted
             this.InitializeReceiver(this.subscription2Client, ConsoleColor.Green);
             this.InitializeReceiver(this.subscription3Client, ConsoleColor.Yellow);
 
-            await this.SendMessagesAsync();
+            
 
             await Task.WhenAny(
                Task.Run(() => Console.ReadKey()),
                Task.Delay(TimeSpan.FromSeconds(10))
            );
+
+            await this.SendMessagesAsync();
+
+            Console.ReadKey();
 
             await this.subscription1Client.CloseAsync();
             await this.subscription2Client.CloseAsync();
