@@ -35,7 +35,6 @@ namespace QueueCRUD
                 BasicQueueName,
                 PartitionedQueueName,
                 DupdetectQueueName,
-                SessionQueueName,
                 BasicQueue2Name
             };
 
@@ -44,6 +43,9 @@ namespace QueueCRUD
                 Console.WriteLine($"Creating a new Queue with name - {queueName}");
                 await CreateQueueAsync(queueName, managementClient).ConfigureAwait(false);
             }
+
+            Console.WriteLine($"Creating a new session Queue with name - {SessionQueueName}");
+            await CreateSessionQueueAsync(SessionQueueName, managementClient);
 
             Console.WriteLine($"Creating a new Topic with name - {BasicTopicName}");
             await CreateTopicAsync(BasicTopicName, managementClient);
@@ -61,6 +63,29 @@ namespace QueueCRUD
             //await DeleteQueueAsync(queueName, managementClient);
 
             await managementClient.CloseAsync().ConfigureAwait(false);
+        }
+
+        private async Task CreateSessionQueueAsync(string sessionQueueName, ManagementClient managementClient)
+        {
+            var queueDescription = new QueueDescription(sessionQueueName)
+            {
+                // This indicates whether the queue supports the concept of session.
+                // Find out more in "Session and Workflow Management Features" sample
+                RequiresSession = true
+            };
+
+            try
+            {
+                if (!await managementClient.QueueExistsAsync(sessionQueueName))
+                {
+                    QueueDescription createdQueue = await managementClient.CreateQueueAsync(queueDescription).ConfigureAwait(false);
+                }
+            }
+            catch (ServiceBusException ex)
+            {
+                Console.WriteLine($"Encountered exception while creating Queue -\n{ex}");
+                throw;
+            }
         }
 
         public async Task CreateTopicAsync(string topicName, ManagementClient managementClient)
