@@ -67,11 +67,29 @@ namespace QueueCRUD
         {
             try
             {
-                TopicDescription createdtopic = await managementClient.CreateTopicAsync(topicName).ConfigureAwait(false);
-                await managementClient.CreateSubscriptionAsync(createdtopic.Path, "Subscription1");
-                await managementClient.CreateSubscriptionAsync(createdtopic.Path, "Subscription2");
-                await managementClient.CreateSubscriptionAsync(createdtopic.Path, "Subscription3");
+                TopicDescription topic = null;
 
+                if (!await managementClient.TopicExistsAsync(topicName))
+                {
+                    topic = await managementClient.CreateTopicAsync(topicName).ConfigureAwait(false);
+                }
+                else
+                {
+                    topic = await managementClient.GetTopicAsync(topicName);
+                }
+
+                if (!await managementClient.SubscriptionExistsAsync(topic.Path, "Subscription1"))
+                {
+                    await managementClient.CreateSubscriptionAsync(topic.Path, "Subscription1");
+                }
+                if (!await managementClient.SubscriptionExistsAsync(topic.Path, "Subscription2"))
+                {
+                    await managementClient.CreateSubscriptionAsync(topic.Path, "Subscription2");
+                }
+                if (!await managementClient.SubscriptionExistsAsync(topic.Path, "Subscription3"))
+                {
+                    await managementClient.CreateSubscriptionAsync(topic.Path, "Subscription3");
+                }
             }
             catch (ServiceBusException ex)
             {
@@ -88,49 +106,52 @@ namespace QueueCRUD
         {
             // All the values have defaults and hence optional. 
             // The only required parameter is the path of the queue (in this case, queueName)
-            var queueDescription = new QueueDescription(queueName)
-            {
-                // The duration of a peek lock; that is, the amount of time that a message is locked from other receivers.
-                LockDuration = TimeSpan.FromSeconds(45),
+            //var queueDescription = new QueueDescription(queueName)
+            //{
+            //    // The duration of a peek lock; that is, the amount of time that a message is locked from other receivers.
+            //    LockDuration = TimeSpan.FromSeconds(45),
 
-                // Size of the Queue. For non-partitioned entity, this would be the size of the queue. 
-                // For partitioned entity, this would be the size of each partition.
-                MaxSizeInMB = 2048,
+            //    // Size of the Queue. For non-partitioned entity, this would be the size of the queue. 
+            //    // For partitioned entity, this would be the size of each partition.
+            //    MaxSizeInMB = 2048,
 
-                // This value indicates if the queue requires guard against duplicate messages. 
-                // Find out more in DuplicateDetection sample
-                RequiresDuplicateDetection = false,
+            //    // This value indicates if the queue requires guard against duplicate messages. 
+            //    // Find out more in DuplicateDetection sample
+            //    RequiresDuplicateDetection = false,
 
-                //Since RequiresDuplicateDetection is false, the following need not be specified and will be ignored.
-                //DuplicateDetectionHistoryTimeWindow = TimeSpan.FromMinutes(2),
+            //    //Since RequiresDuplicateDetection is false, the following need not be specified and will be ignored.
+            //    //DuplicateDetectionHistoryTimeWindow = TimeSpan.FromMinutes(2),
 
-                // This indicates whether the queue supports the concept of session.
-                // Find out more in "Session and Workflow Management Features" sample
-                RequiresSession = false,
+            //    // This indicates whether the queue supports the concept of session.
+            //    // Find out more in "Session and Workflow Management Features" sample
+            //    RequiresSession = false,
 
-                // The default time to live value for the messages
-                // Find out more in "TimeToLive" sample.
-                DefaultMessageTimeToLive = TimeSpan.FromDays(7),
+            //    // The default time to live value for the messages
+            //    // Find out more in "TimeToLive" sample.
+            //    DefaultMessageTimeToLive = TimeSpan.FromDays(7),
 
-                // Duration of idle interval after which the queue is automatically deleted. 
-                AutoDeleteOnIdle = TimeSpan.MaxValue,
+            //    // Duration of idle interval after which the queue is automatically deleted. 
+            //    AutoDeleteOnIdle = TimeSpan.MaxValue,
 
-                // Decides whether an expired message due to TTL should be dead-letterd
-                // Find out more in "TimeToLive" sample.
-                EnableDeadLetteringOnMessageExpiration = false,
+            //    // Decides whether an expired message due to TTL should be dead-letterd
+            //    // Find out more in "TimeToLive" sample.
+            //    EnableDeadLetteringOnMessageExpiration = false,
 
-                // The maximum delivery count of a message before it is dead-lettered
-                // Find out more in "DeadletterQueue" sample
-                MaxDeliveryCount = 8,
+            //    // The maximum delivery count of a message before it is dead-lettered
+            //    // Find out more in "DeadletterQueue" sample
+            //    MaxDeliveryCount = 8,
 
-                // Creating only one partition. 
-                // Find out more in PartitionedQueues sample.
-                EnablePartitioning = false
-            };
+            //    // Creating only one partition. 
+            //    // Find out more in PartitionedQueues sample.
+            //    EnablePartitioning = false
+            //};
 
             try
             {
-                QueueDescription createdQueue = await managementClient.CreateQueueAsync(queueName).ConfigureAwait(false);
+                if (!await managementClient.QueueExistsAsync(queueName))
+                {
+                    QueueDescription createdQueue = await managementClient.CreateQueueAsync(queueName).ConfigureAwait(false);
+                }
             }
             catch (ServiceBusException ex)
             {
