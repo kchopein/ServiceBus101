@@ -31,12 +31,18 @@ namespace MessagingSamples
     public class Sample
     {
         public const string NamePrefix = "kchopein";
+        public const string pathToServiceBusExporerFolder = @"C:\Users\marcosher\OneDrive - RAET bv\Service Bus Explorer";
+
+        public const string sbConnectionString = "Endpoint=sb://kchoservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=exqXpOpN9kyWWOllwyINsTbLcrCw3ZIx27tOZ8U7n6Y=";
+
+
         public const string BasicQueueName = NamePrefix + "_BasicQueue";
         public const string PartitionedQueueName = NamePrefix + "_PartitionedQueue";
         public const string DupdetectQueueName = NamePrefix + "_DupdetectQueue";
         public const string BasicTopicName = NamePrefix + "_BasicTopic";
         public const string SessionQueueName = NamePrefix + "_sessionqueue";
         public const string BasicQueue2Name = NamePrefix + "_BasicQueue2";
+        
         static readonly string samplePropertiesFileName = "azure-msg-config.properties";
 #if STA
         [STAThread]
@@ -46,7 +52,7 @@ namespace MessagingSamples
         {
             var properties = new Dictionary<string, string>
             {
-                {"SB_SAMPLES_CONNECTIONSTRING", "Endpoint=sb://kchoservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=exqXpOpN9kyWWOllwyINsTbLcrCw3ZIx27tOZ8U7n6Y="},
+                {"SB_SAMPLES_CONNECTIONSTRING", sbConnectionString},
             };
 
             // read the settings file created by the ./setup.ps1 file

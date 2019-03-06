@@ -36,25 +36,19 @@ namespace Sessions
             var client2 = this.InitializeReceiver(connectionString, SessionQueueName, ConsoleColor.Blue);
             var client3 = this.InitializeReceiver(connectionString, SessionQueueName, ConsoleColor.Green);
 
-            //var nonSessionClient = this.InitializeNonSessionReceiver(connectionString, SessionQueueName, ConsoleColor.Red);
+            await Task.WhenAll(
+                this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
+                this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
+                this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
+                this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
+                this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
+                this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
+                this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
+                this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName));
 
             Task.WaitAny(
-               Task.Run(() => Console.ReadKey()),
-               Task.Delay(TimeSpan.FromSeconds(30)));
-
-            await Task.WhenAll(
-                this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName));
-            //this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
-            //this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
-            //this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
-            //this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
-            //this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
-            //this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName),
-            //this.SendMessagesAsync(Guid.NewGuid().ToString(), connectionString, SessionQueueName));
-
-
-
-            Console.ReadKey();
+              Task.Run(() => Console.ReadKey()),
+              Task.Delay(TimeSpan.FromSeconds(30)));
 
             await client1.CloseAsync();
             await client2.CloseAsync();
@@ -84,7 +78,8 @@ namespace Sessions
                     ContentType = "application/json",
                     Label = "RecipeStep",
                     MessageId = i.ToString(),
-                    TimeToLive = TimeSpan.FromMinutes(2)
+                    TimeToLive = TimeSpan.FromMinutes(2),
+                    SessionId = sessionId
                 };
                 await sender.SendAsync(message);
                 lock (Console.Out)
@@ -95,49 +90,20 @@ namespace Sessions
                 }
             }
 
-            var independentMessage = new Message(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(new { step = 1000, title = "Independent" })))
-            {
-                SessionId = new Random(DateTime.UtcNow.Millisecond).NextDouble().ToString(),
-                ContentType = "application/json",
-                Label = "JAja",
-                TimeToLive = TimeSpan.FromMinutes(2)
-            };
-            await sender.SendAsync(independentMessage);
+            //var independentMessage = new Message(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(new { step = 1000, title = "Independent" })))
+            //{
+            //    SessionId = new Random(DateTime.UtcNow.Millisecond).NextDouble().ToString(),
+            //    ContentType = "application/json",
+            //    Label = "JAja",
+            //    TimeToLive = TimeSpan.FromMinutes(2)
+            //};
+            //await sender.SendAsync(independentMessage);
             lock (Console.Out)
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Independent message");
                 Console.ResetColor();
             }
-        }
-
-        QueueClient InitializeNonSessionReceiver(string connectionString, string queueName, ConsoleColor color)
-        {
-            var nonSessionClient = new QueueClient(connectionString, queueName, ReceiveMode.PeekLock);
-            nonSessionClient.RegisterMessageHandler(async (message, cancellationToken) =>
-            {
-                lock (Console.Out)
-                {
-                    Console.ForegroundColor = color;
-                    Console.WriteLine("\t\t\t\tIndependent Message received:  \n\t\t\t\t\t\tSessionId = {0}, \n\t\t\t\t\t\tMessageId = {1}, \n\t\t\t\t\t\tSequenceNumber = {2}",
-                        message.SessionId,
-                        message.MessageId,
-                        message.SystemProperties.SequenceNumber);
-                    Console.ResetColor();
-                }
-
-                await nonSessionClient.CompleteAsync(message.SystemProperties.LockToken);
-            },
-            new MessageHandlerOptions(e => LogMessageHandlerException(e))
-            {
-                MaxConcurrentCalls = 1,
-                AutoComplete = false,
-                MaxAutoRenewDuration = TimeSpan.FromSeconds(15)
-            }
-             );
-
-            return nonSessionClient;
-
         }
 
         QueueClient InitializeReceiver(string connectionString, string queueName, ConsoleColor color)
@@ -187,11 +153,6 @@ namespace Sessions
                     MaxAutoRenewDuration = TimeSpan.FromSeconds(15)
                 });
             return sessionClient;
-        }
-
-        private Task handleMessage(Message arg1, CancellationToken arg2)
-        {
-            throw new NotImplementedException();
         }
 
         private Task LogMessageHandlerException(ExceptionReceivedEventArgs e)
